@@ -1,0 +1,238 @@
+{
+  "resourceType": "Bundle",
+  "id": "018f3c63-1efd-780c-8214-eac2b66bf3b3",
+  "language": "en-GB",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "8bc91795-1e22-49d8-a424-207942b1ead3"
+  },
+  "type": "document",
+  "timestamp": "2022-12-01T15:04:48.865+08:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:52ed747e-bf36-49a6-bfa8-2fa68995f59e",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "52ed747e-bf36-49a6-bfa8-2fa68995f59e",
+        "identifier": {
+          "system": "urn:oid:2.16.724.4.8.10.200.10",
+          "value": "3f69e0a5-2177-4540-baab-7a5d0877428f"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "https://ehealth.gov.hk/FHIR",
+              "display": "Hong Kong eHR Healthcare Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/783942d5-a57d-48af-8704-327764946c2f"
+        },
+        "date": "2024-01-13T15:04:48+08:00",
+        "author": [
+          {
+            "reference": "Organization/a863c197-0a83-4f52-8a75-5844d9f67f9d",
+            "display": "ZZZ Verification Hospital"
+          }
+        ],
+        "title": "Hong Kong eHR Healthcare Document",
+        "section": [
+          {
+            "title": "Problem Records",
+            "code": {
+              "coding": [
+                {
+                  "system": "https://ehealth.gov.hk/FHIR/datadomain",
+                  "code": "PROB",
+                  "display": "Problem Records"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "extension": [
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateDatetime",
+                    "valueDateTime": "2022-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateInstIdentifier",
+                    "valueString": "2345679033"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateInstName"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordLastUpdateDatetime",
+                    "valueDateTime": "2022-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordUpdateInstIdentifier",
+                    "valueString": "2345679033"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordUpdateInstName"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-TransactionDateTime",
+                    "valueDateTime": "2022-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-TransactonType",
+                    "valueString": "U"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-LastUpdateDateTime",
+                    "valueDateTime": "2022-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-ComplianceLevel",
+                    "valueString": "3"
+                  }
+                ],
+                "reference": "Condition/c1d94b83-4c66-49f7-8489-e7651a96037e",
+                "identifier": {
+                  "system": "https://ehealth.gov.hk/FHIR/HCP/local/Recordkey",
+                  "value": "PROB_20240503_152351245124"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a863c197-0a83-4f52-8a75-5844d9f67f9d",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a863c197-0a83-4f52-8a75-5844d9f67f9d",
+        "identifier": [
+          {
+            "system": "http://ehealth.gov.hk/fhir/pvdr",
+            "value": "9006662656"
+          }
+        ],
+        "name": "ZZZ Verification Hospital",
+        "alias": [
+          "VDS"
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "783942d5-a57d-48af-8704-327764946c2f",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://ehealth.gov.hk/FHIR/typeofID-ext",
+                  "code": "EHRNO"
+                }
+              ]
+            },
+            "value": "621528665811"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://ehealth.gov.hk/FHIR/typeofID-ext",
+                  "code": "ID"
+                }
+              ]
+            },
+            "value": "PZ8073571"
+          }
+        ],
+        "name": [
+          {
+            "text": "WONG, LONG",
+            "family": "WONG",
+            "given": [
+              "LONG"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2002-11-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c1d94b83-4c66-49f7-8489-e7651a96037e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c1d94b83-4c66-49f7-8489-e7651a96037e",
+        "extension": [
+          {
+            "url": "https://ehealth.gov.hk/FHIR/1003582-ReasonForCancel"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "https://ehealth.gov.hk/FHIR/DiagStatuscd",
+              "code": "A",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "[(E3P1Q1) System of the condition]",
+              "code": "[(E3P1Q2) Codex of the condition]",
+              "display": "[(E3P1Q3) Description of the condition]"
+            },
+            {
+              "system": "https://ehealth.gov.hk/FHIR/HCP/local/diagnosis",
+              "display": "Hypercholesterolemia"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/783942d5-a57d-48af-8704-327764946c2f"
+        },
+        "encounter": {
+          "reference": "Encounter/39fa17a5-d337-478c-b49d-2ace37319390"
+        },
+        "recordedDate": "2022-05-27T15:09:27+08:00",
+        "note": [
+          {
+            "text": "No further comment"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:39fa17a5-d337-478c-b49d-2ace37319390",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "39fa17a5-d337-478c-b49d-2ace37319390",
+        "extension": [
+          {
+            "url": "https://ehealth.gov.hk/FHIR/99999999-AttendanceInstIdentifier",
+            "valueString": "9938744799"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://ehealth.gov.hk/FHIR/HCP/local/EpisodeNum",
+            "value": "OP123456"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "https://ehealth.gov.hk/FHIR/class",
+          "code": "UNKNOWN",
+          "display": "Unknown status"
+        }
+      }
+    }
+  ]
+}

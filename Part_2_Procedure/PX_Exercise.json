@@ -1,0 +1,265 @@
+{
+  "resourceType": "Bundle",
+  "id": "20f097f2-dff9-40d8-bd40-076ef820e11e",
+  "language": "en-GB",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "4ec316ad-5152-48f8-90c0-66661bf15db2"
+  },
+  "type": "document",
+  "timestamp": "2022-12-01T15:04:48.865+08:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:2bc336e9-2a45-4568-8fda-da64e5743d59",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "2bc336e9-2a45-4568-8fda-da64e5743d59",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "https://ehealth.gov.hk/FHIR",
+              "display": "Hong Kong eHR Healthcare Document"
+            }
+          ]
+        },
+        "date": "2024-03-01T15:04:48.865+08:00",
+        "author": [
+          {
+            "reference": "Organization/6b34ef97-7f4a-4bab-9517-b14e0a2ae9ac",
+            "display": "ZZZ Verification Hospital"
+          }
+        ],
+        "title": "Hong Kong eHR Healthcare Document",
+        "section": [
+          {
+            "title": "Procedure Records",
+            "code": {
+              "coding": [
+                {
+                  "system": "https://ehealth.gov.hk/FHIR/datadomain",
+                  "code": "PX",
+                  "display": "Procedure Records"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "extension": [
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateDatetime",
+                    "valueDateTime": "2024-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateInstIdentifier",
+                    "valueString": "2345679033"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateInstName"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordLastUpdateDatetime",
+                    "valueDateTime": "2024-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordUpdateInstIdentifier",
+                    "valueString": "2345679033"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordUpdateInstName"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-TransactionDateTime",
+                    "valueDateTime": "2024-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-TransactonType",
+                    "valueString": "U"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-LastUpdateDateTime",
+                    "valueDateTime": "2024-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-ComplianceLevel",
+                    "valueString": "3"
+                  }
+                ],
+                "reference": "Procedure/d4e3d31f-fe0f-4546-b8a5-9499f7357fbe",
+                "identifier": {
+                  "system": "https://ehealth.gov.hk/FHIR/HCP/local/Recordkey",
+                  "value": "PX_20240503_516245125324"
+                }
+              },
+							{
+                "extension": [
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateDatetime",
+                    "valueDateTime": "2024-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateInstIdentifier",
+                    "valueString": "2345679033"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateInstName"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordLastUpdateDatetime",
+                    "valueDateTime": "2024-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordUpdateInstIdentifier",
+                    "valueString": "2345679033"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordUpdateInstName"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-TransactionDateTime",
+                    "valueDateTime": "2024-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-TransactonType",
+                    "valueString": "U"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-LastUpdateDateTime",
+                    "valueDateTime": "2024-03-04T08:30:00+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-ComplianceLevel",
+                    "valueString": "3"
+                  }
+                ],
+                "reference": "Procedure/d4e3d31f-fe0f-4546-b8a5-9499f7357fbe",
+                "identifier": {
+                  "system": "https://ehealth.gov.hk/FHIR/HCP/local/Recordkey",
+                  "value": "PX_20240503_516245125324"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b34ef97-7f4a-4bab-9517-b14e0a2ae9ac",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "6b34ef97-7f4a-4bab-9517-b14e0a2ae9ac",
+        "identifier": [
+          {
+            "system": "http://ehealth.gov.hk/fhir/pvdr",
+            "value": "9907819043"
+          }
+        ],
+        "name": "ZZZ Verification Hospital",
+        "alias": [
+          "VDS"
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:600a83f1-ee75-4104-b2a0-669ea50d6261",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "600a83f1-ee75-4104-b2a0-669ea50d6261",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://ehealth.gov.hk/FHIR/typeofID-ext",
+                  "code": "EHRNO"
+                }
+              ]
+            },
+            "value": "621528665811"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://ehealth.gov.hk/FHIR/typeofID-ext",
+                  "code": "ID"
+                }
+              ]
+            },
+            "value": "PZ8073571"
+          }
+        ],
+        "name": [
+          {
+            "text": "WONG, LONG",
+            "family": "WONG",
+            "given": [
+              "LONG"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2002-11-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d4e3d31f-fe0f-4546-b8a5-9499f7357fbe",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "d4e3d31f-fe0f-4546-b8a5-9499f7357fbe",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "https://ehealth.gov.hk/HKCTT",
+              "code": "25785",
+              "display": "Insertion of double-J catheter, right"
+            },
+            {
+              "system": "http://ehealth.gov.hk/local/procedure",
+              "code": "PX52165",
+              "display": "Insertion of double-J catheter, right"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/600a83f1-ee75-4104-b2a0-669ea50d6261"
+        },
+        "encounter": {
+          "reference": "Encounter/9a7bac07-167f-4d90-86fb-d2aa82b3d66b"
+        },
+        "performedDateTime": "2021-07-10T12:30:00+08:00",
+        "note": [
+          {
+            "text": "no further comment"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a7bac07-167f-4d90-86fb-d2aa82b3d66b",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "9a7bac07-167f-4d90-86fb-d2aa82b3d66b",
+        "extension": [
+          {
+            "url": "http://ehealth.gov.hk/FHIR/99999999-AttendanceInstIdentifier",
+            "valueString": "9938744799"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://ehealth.gov.hk/HCPID/EpisodeNum",
+            "value": "OP123456"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://ehealth.gov.hk/FHIR/class",
+          "code": "UNKNOWN",
+          "display": "Unknown status"
+        }
+      }
+    }
+  ]
+}
